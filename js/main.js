@@ -20,12 +20,6 @@ function getData(url) {
             //        console.log(html);
 
             $("#dane-programisty").append(html);
-        },
-        error: function(){
-            
-            let html = `Danych nie udało się pobrać!`
-            
-            $("#dane-programisty").append(html);
         }
         
     });
