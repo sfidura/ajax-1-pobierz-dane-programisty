@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    color: white;
+    font-size: 1.3rem;
+}
+body{
+    background-color: darkslategray;
+}
+#btnGetData{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: chocolate;
+    padding: 10px 20px;
+}
+
+#dane-programisty{
+    width: 60%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: darkseagreen;
+    padding: 20px;
+    outline: 5px dashed green;
+}
