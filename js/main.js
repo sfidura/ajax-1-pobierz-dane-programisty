@@ -1,6 +1,10 @@
 const url = "https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php";
 
-$("#btnGetData").click(function (url) {
+$("#btnGetData").click(function () {
+    getData(url);
+});
+
+function getData(url) {
     $.ajax({
         url: url,
         method: 'GET',
@@ -18,9 +22,7 @@ $("#btnGetData").click(function (url) {
             $("#dane-programisty").append(html);
         }
     });
-});
-
-
+}
 
 
 /*$.getJSON(url, function(data){
