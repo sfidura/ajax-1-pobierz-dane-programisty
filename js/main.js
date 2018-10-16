@@ -5,6 +5,9 @@ $("#btnGetData").click(function () {
 });
 
 function getData(url) {
+    
+    $("body").prepend("<div id=\"dane-programisty\"></div>");
+    
     $.ajax({
         url: url,
         method: 'GET',
